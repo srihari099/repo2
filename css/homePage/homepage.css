@@ -1,0 +1,140 @@
+body{
+    margin: auto;
+}
+#search{
+    height:500px;
+    width:100%;
+    background-image: url('https://i.ibb.co/Jv1Ckhg/manali.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 500px;
+}
+.brand{
+    display: inline-block;
+    margin-left:5%;
+    font-size:30px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+}
+.social{
+    display: inline-block;
+    margin-left:64%;
+    
+}
+
+.socialIcon{
+    height:50px;
+    width:50px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+#logo > span{
+    color:#91c00a;
+    font-size: 115px;
+    margin-left: 13%;
+}
+
+#heading{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    background-color: #7faa21;
+    width:30%;
+    margin:auto;
+    margin-top:3%;
+}
+
+#dropdown{
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 60px;
+    width: 42%;
+}
+
+select{
+    height: 60px;
+    width:40% 
+}
+
+#secondSelect{
+    width:55% 
+}
+
+#QuickSearch{
+    width:70%;
+    margin-left:15%;
+    margin-top:2%;
+}
+
+#QuickHeading{
+    color:#7faa21;
+    font-size:30px;
+    display:block;
+    font-weight: bold;
+    margin-left:2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    display:block;
+    line-height: 3;
+    margin-left:2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.tileContainer{
+    height:200px;
+    width:45%;
+    display: inline-block;
+    margin-top:2%;
+    margin-left:2%;
+    box-shadow: 10px 20px 10px rgb(162, 220, 243);
+}
+
+.tileComponent1{
+    width:50%;
+    height:200px;
+    float:left
+}
+
+.tileComponent1 > img {
+    width:100%;
+    height: 200px;
+}
+
+.tileComponent2{
+    width:40%;
+    height:200px;
+    float:left;
+    margin-left: 30px;
+    margin-top: 10%;
+}
+
+footer{
+    text-align: center;
+    font-size:30px
+}
+.componentHeading{
+    font-size:30px;
+    color:green
+}
+
+.componentSubHeading{
+    font-size:20px;
+    color:gray
+}
